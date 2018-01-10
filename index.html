@@ -8,7 +8,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 
-	 var name = localStorage.getItem('IDU123');
+	 var name = localStorage.getItem('IDU1230');
 	 var text = $('#text').val();
 
 	  $("#Abut").click(function(){
@@ -18,10 +18,10 @@
 				  $("#D p").html('已经提交过');
 				  $("#D").show();
 			  }else{
-				  localStorage.setItem('IDU123',text);
+				  localStorage.setItem('IDU1230',text);
 				  $.ajax({
-					 url: "query.php",
-					 dataType: 'json',
+					 url: "http://qdqd.site/query.php",
+					 dataType: 'jsonp',
 					 data:{
 						 F_N:$('#A input[name="A"]:checked').val()
 						 }
@@ -51,8 +51,8 @@
 	  $("#Bbut").click(function(e){
 		  e.preventDefault();
 		  $.ajax({
-			  url: "add.php",
-			  dataType: 'json',
+			  url: "http://qdqd.site/add.php",
+			  dataType: 'jsonp',
 			  data:{
 				  F_N:$('#A input[name="A"]:checked').val(),
 				  S_F:$('#B input[name="B"]:checked').val(),
