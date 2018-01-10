@@ -22,6 +22,8 @@
 				  $.ajax({
 					 url: "https://qdqd.site/query.php",
 					 dataType: 'jsonp',
+					 jsonp : "callback",
+					 jsonpCallback:"test1",
 					 data:{
 						 F_N:$('#A input[name="A"]:checked').val()
 						 }
@@ -48,6 +50,9 @@
 		  }
 	  });
 
+	  function test1(e){
+		console.log(e);
+	  }
 	  $("#Bbut").click(function(e){
 		  e.preventDefault();
 		  $.ajax({
