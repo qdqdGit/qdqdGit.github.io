@@ -636,6 +636,10 @@ input[ type="radio" ]{
         background-size: 17px;
     }
 
+    #B .left{
+        margin-top: 10px;
+    }
+
     .button{
         max-width: 233px;
         margin-bottom: 16px;
