@@ -1,1 +1,2 @@
 # qdqdGit.github.io
+https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=5_SPO-Vkt8FOX_hK3CE708iVkIQ2ES2jQBoAwVdOpLk1k_-3D0MhGrzUGyJmI6wNmscw5Ii3MNfb6JlxDABTHw0AxY6HwFxZes3UJ78Hrz97b3fhL_4f40mrzbisRQ8YM0-hYTszBf0tJHrzk1UUBcAHANNU&type=jsapi
