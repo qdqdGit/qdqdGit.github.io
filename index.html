@@ -20,16 +20,16 @@
                        }
 					 ,
 				 success: function(data) {
-					var MappId = data.config.appId;
-					var Mtimestamp = data.config.timestamp;
-					var MnonceStr = data.config.nonceStr;
-					var Msignature = data.config.signature;
+					var MappId = data.config[0].appId;
+					var Mtimestamp = data.config[0].timestamp;
+					var MnonceStr = data.config[0].nonceStr;
+					var Msignature = data.config[0].signature;
 			
-					var Mtitle = data.doc.title;
-					var Mlink = data.doc.link;
-					var MimgUrl = data.doc.imgUrl;
-					var Mdesc = data.doc.desc;
-					console.log(data.config[0]);
+					var Mtitle = data.doc[0].title;
+					var Mlink = data.doc[0].link;
+					var MimgUrl = data.doc[0].imgUrl;
+					var Mdesc = data.doc[0].desc;
+					console.log(Mtitle);
 
 					wx.config({
 						debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
