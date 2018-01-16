@@ -55,11 +55,11 @@
 					link: Mlink, // 分享链接
 					imgUrl: MimgUrl, // 分享图标
 					success: function () { 
-						alert('分享成功');
+						console.log('ok');
 						// 用户确认分享后执行的回调函数
 					},
 					cancel: function () { 
-						alert('取消分享');
+						console.log('no');
 						// 用户取消分享后执行的回调函数
 					}
 				});
@@ -73,11 +73,11 @@
 					dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
 					   
 					success: function () { 
-						alert('分享成功');
+						console.log('ok');
 						// 用户确认分享后执行的回调函数
 					},
 					cancel: function () { 
-						alert('取消分享');
+						console.log('no');
 						// 用户取消分享后执行的回调函数
 					}
 				});
