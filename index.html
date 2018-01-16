@@ -47,6 +47,9 @@
 				signature: Msignature,// 必填，签名，见附录1
 				jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 			});
+			wx.error(function(res){
+				console.log(res);
+			});
 
 			wx.onMenuShareTimeline({
 				title: Mtitle, // 分享标题
