@@ -86,4 +86,5 @@ function XCX(){
     $("#B").hide();
     $("#A").show();
     $("#C").hide();
+    history.go(0);
 }
