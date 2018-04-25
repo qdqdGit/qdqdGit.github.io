@@ -1,672 +1,169 @@
-/*最小到280px*/
-html{
-    font-family: 'Adobe 黑体 Std';
-    font-size: 12px;
-}
-body{
-    padding: 0;
-    margin: 0;
-}
-textarea{
-    
-    background-color: rgba(0,0,0,0);
-    border: 2px solid #7d8aa9;
-    max-width: 470px;
-    height: 165px;
-    width:100%;
-    resize: none;
-}
-
-.md-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    max-width: 320px;
-    min-width: 300px;
-    height: auto;
-    z-index: 2000;
-    visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    visibility: visible;
-    /* box-shadow: 0px 2px 8px 2px #8b7c7c8c; */
-    padding: 8px;
-}
-.md-effect-1 .md-content {
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
-    opacity: 1;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-}
-.md-content {
-    color: #fff;
-    background: #fff;
-    background-image: url(img/bg.png);
-
-    position: relative;
-    padding: 13px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 0px 8px rgba(180, 201, 229, 0.7);
-}
-
-.md-content > div {
-    padding: 15px 40px 30px;
-    padding-bottom:5px;
-    margin: 0;
-    font-weight: 300;
-    font-size: .9em;
-    border: 1px solid #88abda;
-}
-.md-content > div p {
-    /* padding:20px; */
-    padding-bottom: 10px;
-    margin-top:0px;
-    color:#FFF;
-    text-align:center;
-    letter-spacing: 1.3px;
-    color: #6474a1;
-    font-weight: bold;
-    font-size: 20px;
-}
-.md-content button {
-    border: 1px solid #000;
-    border-radius: 6px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    line-height: 23px;
-    font-weight: bold;
-}
-.md-close {
-    padding: 0.4em 1.2em;
-    /* background: #448aca; */
-    color: #fff;
-    font-family: C2;
-    cursor: pointer;
-    /* margin: 3px 2px; */
-    /* border-radius: 2px; */
-    background-image: url(/img/buttbg.png);
-    background-size: 64px 18px;
-}
-
-#D, #C{
-    display: none;  
-}
-#B {
-    font-family: "Adobe 黑体 Std";
-    color: #314775;
-    font-size: 30px;
-    display: none;
-}
-#B input[name="C"]{
-  display:none;
-  position: relative;
-}
-#B .list{
-    max-width: 480px;
-}
-#B .list li{
-    margin-bottom: 0px;
-    height: 30px;
-    margin-bottom: 28px;
-    /* width: 100%; */
-}
-#B .button{
-    margin-top: 220px;
-    max-width: 500px;
-}
-#B label{
-    font-size: 30px;
-    letter-spacing: 0px;
-}
-#B .right{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-}
-#B .Cright{
-    float: right;
-}
-#B .leftBlock{
-    display:inline-block;
-    font-family: unset;
-    width: 143px;
-    letter-spacing: 1px;
-}
-#B .radio.B{
-    background-image: url("images/CAb.png");
-    position: relative;
-    vertical-align: middle;
-    /* height: 20px; */
-    width: 20px;
-    background-size: 20px;
-}
-#B .A .radio.B{
-    background-image: url("images/CAa.png");
-    position: relative;
-}
-
-#B .radio.C{
-    background-image: url("images/RAa.png");
-    /* vertical-align: middle; */
-}
-
-#B .A .radio.C{
-    background-image: url("images/RAb.png");
-}
-
-#B .left{
-    position: absolute;
-    right: 0;
-    margin-top: 14px;
-}
-#B .radio.B{
-    margin-left: 7px;
-    margin-right: 7px;
-}
-#B .radio.C{
-    margin-right: 14px;
-}
-*{
-    outline-width: 0;
-    user-select: none;
-}
-
-.w{
-    max-width: 750px;
-    background-image: url("img/bg.png");
-    /* height: 200px; */
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-top: 24px;
-
-
-}
-.center{
-    margin: 0 auto;
-}
-
-.margin{
-    max-width: 710px;
-    border: 18px solid #b4c9e5;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align:  center;
-}
-
-.padding{
-    position: relative;
-    max-width: 646px;
-    border: 4px solid #b4c9e5;
-    box-sizing:  border-box;
-    padding-top: 10px;
-}
-
-img{
-    max-width: 100%;
-    /* text-align:  center; */
-    /* margin-left: 40px; */
-    /* margin-right: 40px; */
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.list{
-    max-width: 550px;
-    /* margin-right: 8px; */
-    position: relative;
-    text-align:  justify;
-}
-.list li{
-    display: block;
-    margin-bottom: 25px;
-}
-.list span{
-    display: inline-block;
-    width: 44px;
-    height: 33px;
-    box-sizing: border-box;
-    border: 1px solid rgb(35, 53, 92);
-    /* padding-right: 44px; */
-    line-height: 32px;
-    text-align:  center;
-    /* margin: 0 auto; */
-    background-color: #ff8374;
-    color: rgb(35, 53, 92);
-    font-size: 19px;
-    margin-top: px;
-    vertical-align: baseline;
-    margin-right: 18px;
-    letter-spacing: 0px;
-}
-.list label{
-    font-size: 2.08rem;
-    line-height: 32px;
-    letter-spacing: 7px;
-    color: #314775;
-    cursor: pointer;
-}
-.list input[type="radio"],.list .radio{  
-    position:  absolute; 
-    right: 0;
-}
-.list .radio{
-    display: inline-block;
-    background-image: url(images/radio.png);
-    width:  30px;
-    height: 30px;
-    background-size: 30px;
-    background-repeat:  no-repeat;
-    /* display:  none; */
-}
-.list .A .radio{
-    background-image: url(images/radioA.png); 
-    
-}
-input[ type="radio" ]{
-    display:none;
-}
-.button{
-    cursor: pointer;
-    margin-top: 30px;
-    margin-bottom: 18px;
-}
-#B .list .center{
-    max-width: 450px;
-}
-/*适应移动 每50px 微调*/
-@media screen and (max-width: 550px) {
-    .w{
-        max-width: 550px;
-        padding: 18px;
-        padding-top: 18px;
-        padding-bottom: 17px;
-
+    /*覆盖默认样式*/
+    body{
+        margin: 0;
+        padding: 0;
+        zoom: 50%;
     }
-    .margin{
-        max-width: 520px;
-        border: 14px solid #b4c9e5;
-        padding: 4px;
+    a {
+        color: #000;
+        text-decoration: unset;
     }
-    .padding{
-        border: 3px solid #b4c9e5;
-        max-width: 486px; 
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 6px;
-    }
-    .list li{
-        margin-bottom: 16px;
-        margin-left: 16px;
-        /* margin-right: 18px; */
-        position: relative;
+    /*布局*/
+
+    body {
     }
 
-    .list span{
-        width: 32px;
-        height: 24px;
+    .main {
+        width: 750px;
+        max-height: 3784px;
+        margin: 0 auto;
+        padding: 47px;
+
+        overflow: hidden;
+        box-sizing: border-box;
+        background: #eae9e6;
+    }
+
+    /*字体*/
+
+    @font-face {
+        font-family: '方正兰亭粗黑_GBK';
+        src: url('font/方正兰亭粗黑_GBK.TTF');
+
+        font-family: '汉仪细圆简';
+        src: url('font/hye1gjm+100_0.ttf');
+
+        font-family: '方正兰亭纤黑_GBK';
+        src: url('font/方正兰亭纤黑_GBK_0.ttf');
+    }
+    /*页面字体设置*/
+    html{
         font-size: 14px;
-        line-height: 24px;
-        margin-right: 13px;
+    }
+    header{
+        font-size: 5.2rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    section.main>header{
+        font-size: 2.7rem;
+    }
+    section.main>section>header{
+        font-size: 2.14rem;
     }
 
-    .list label{
-        line-height: 24px;
-        font-size: 18px;
-        letter-spacing: 5px;
-    }
-    .list .radio{
-        width: 24px;
-        height: 24px;
-        background-size: 24px;
-    }
-    .button{
-        margin-top: 40px;
-        margin-bottom: 26px;
-        max-width: 366px;
+    section.main>span{
+        font-size: 1.4rem;
     }
 
-    /*B*/
-    #B ,#B label{
-        font-size: 23px;
+    .main>section>.block>div>p,
+    .main>section>.block>div>a{
+        font-size: 2.14rem;
     }
-    #B .list.center{
-        max-width: 354px;
+    header>b{
+        font-size: 2.42rem;
     }
-    #B .leftBlock{
-        max-width: 108px;
-    }
-    #B .list li{
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 16px;
-    }
-    #B .list li.b-h1{
-        margin-bottom: 22px;
-    }
-    #B #C6{
-        max-width: 334px;
-        max-height: 128px;
-    }
-    #B .button{
-        max-width: 366px;
-        margin-top: 158px;
-        margin-bottom: 15px;
-    }
-}
-
-@media screen and (max-width:500px){
-    .w{     /*改变宽度*/
-            /*微调边距*/
-        max-width: 500px;
-        padding-top: 17px;
-        padding-bottom: 16px;
-    }
-    .margin{   /* 改变线宽和宽度*/
-        max-width: 474px;
-        border: 11px solid #b4c9e5;
-    }
-    .padding{ /* 仅改变宽度*/
-        border: 3px solid #b4c9e5;
-        max-width: 442px; 
-    }
-    .list span{   /* 宽、高度-2, 行高-2*/
-                  /*微调 字体 和 边距 -1 */
-        width: 30px;
-        height: 22px;
-
-        line-height: 22px;
-
-        font-size: 13px;
-        margin-right: 12px;
-        border-width: 1px;
-    }
-
-    .list label{ /*字间距 调整*/
-        line-height: 22px;
-        font-size: 16px;
-        letter-spacing: 4px;
-    }
-
-    .list .radio{ /*按钮-2*/
-        width: 22px;
-        height: 22px;
-        background-size: 22px;
-    }
-    .button{    /*宽度改变, 边距不变*/
-        max-width: 332px;
+    section>.img{
+        margin-bottom: 40px;
+        vertical-align: top;
     }
 
 
-}
 
-@media screen and (max-width:450px) {
-    .w{
-        max-width: 450px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .margin{
-        /* 4 2 */
-        /*和 w宽度的差 30 26 24*/
-        max-width: 426px;
-    }
-    .padding{ /* 仅改变宽度 34 32 28*/
-        max-width: 398px; 
-    }
-
-    .list span{   /* 宽、高度-2, 行高-2*/
-        /*微调 字体 和 边距 -1 */
-        width: 28px;
-        height: 20px;
-
-        line-height: 20px;
-        font-size: 13px;
-
-        margin-right: 11px;
-    }
-
-    .list label{ /*字间距 调整*/
-        line-height: 22px;
-        font-size: 15px;
-        letter-spacing: 3px;
-    }
-
-    .list .radio{ /*按钮-2*/
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
-    }
-    .button{    /*宽度改变, 边距微调*/
-        max-width: 330px;
-        margin-bottom: 20px;
-        margin-top: 35px;
-    }
-
-    /*B*/
-    #B ,#B label{
-        font-size: 19px;
-    }
-    #B .list.center{
-        max-width: 286px;
-    }
-    #B .radio.B{
-        margin-left: 4px;
-        margin-right: 4px;
-
-        height: 18px;
-        width: 18px;
-        background-size: 18px;
-
-        vertical-align: text-bottom;
-    }
-
-    #B .list li{
-        /* margin-bottom: 10px; */
-    }
-
-    #B .list li.b-h1{
-        margin-bottom: 15px;
-    }
-    #B .leftBlock{
-        max-width: 94px;
-    }
-    #B #C6{
-        width: 275px;
-        height: 102px;
-    }
-    #B .button{
-        max-width: 300px;
-        margin-top: 133px;
-        margin-bottom: 9px;
-    }
-
-}
-
-@media screen and (max-width:400px){
-    .w{
-        max-width: 400px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .margin{
-         /*和 w宽度的差 30 26 24 22*/
-        max-width: 378px;
-    }
-    .padding{ /* 仅改变宽度 34 32 28 24*/
-        padding-left: 14px;
-        padding-right: 14px;
-        max-width: 354px; 
-    }
-    .list li{
-        margin-bottom: 16px;
-        margin-left: 14px;
-        margin-right: 10px;
-    }
-
-    .list span{   /* 宽、高度-2, 行高-2*/
-        /*微调 字体 和 边距 -1 */
-        width: 26px;
-        height: 18px;
-        line-height: 16px;
-        font-size: 13px;
-        margin-right: 8px;
-  
-    }
-
-    .list label{
-        line-height: 20px;
-        font-size: 15px;
+    .main>header {
+        /*font-size: 38px;*/
+        font-family: '方正兰亭粗黑_GBK';
         letter-spacing: 1px;
-    }
-    .list .radio{ /*按钮-2*/
-        width: 19px;
-        height: 19px;
-        background-size: 19px;
-    }
-    .button{    /*宽度改变, 边距微调*/
-        max-width: 266px;
-        margin-bottom: 20px;
-        margin-top: 35px;
-    }
-    /*#B*/
-    #B ,#B label{
-        font-size: 18px;
-    }
-    #B .list.center{
-        min-width: 272px;
-        max-width: 280px;
-    }
-    #B .radio.B{
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 15px;
-        width: 15px;
-        background-size: 15px;
-        vertical-align: inherit;
-    }
-    #B .list li{
-        margin-bottom: 5px;
-    }
-    #B .list li.b-h1{
-        margin-bottom: 10px;
-    }
-    #B #C6{
-        max-width: 256px;
-        height: 95px;
-    }
-    #B .leftBlock{
-        width: 76px;
-    }
-    #B .button{
-        max-width: 266px;
-        /* margin-left: -14px; */
-        margin-top: 125px;
-        margin-bottom: 5px;
+        font-weight: bold;
+        color: rgb(68, 68, 68);
     }
 
-}
-
-
-@media screen and (max-width:350px){
-    .w{
-        max-width: 350px;
-        min-width: 340px;
-        padding-top: 10px;
-        padding-bottom: 12px;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    .margin{
-        /*和 w宽度的差 30 26 24 22 18*/
-       border-width: 8px;
-       max-width: 332px;
-       padding: 2px;
-   }
-   .padding{ /* 仅改变宽度 34 32 28 24*/
-       padding-top: 4px;
-       padding-left: 8px;
-       padding-right: 8px;
-       max-width: 310px; 
-    }
-    .list li{
-        /*
-        margin-bottom: 14px;
-        margin-left: 10px;
-        margin-right: 10px;
-        */
-        margin-bottom: 14px;
-        margin-left: 10px;
-        margin-right: 6px;
+    .main>section {
+        margin-bottom: 80px;
     }
 
-    .list span{   /* 宽、高度-2, 行高-2*/
-        /*微调 字体 和 边距 -1 */
-
-        margin-right: 4px;
+    .main>section>header {
+        text-align: left;
+        margin-bottom: 38px;
     }
 
-    .list label{
-        line-height: 20px;
-        font-size: 15px;
+
+    .main>section>header,
+    .main>section>.block,
+    a {
+        margin-top: 57px;
+        font-size: 30px;
         letter-spacing: 1px;
+        line-height: 55px;
+        font-family: '汉仪细圆简';
     }
 
-    .list .radio{ /*按钮-2*/
-        width: 17px;
-        height: 17px;
-        background-size: 17px;
+
+    section>a {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+
+   /*     font-size: 30px;*/
     }
 
-    #B .left{
-        margin-top: 10px;
+    .main>section>.block {
+        position: relative;
+        width: 658px;
+        height: 179px;
+        border: 2px solid #000;
+        margin-top: 25px;
     }
 
-    .button{
-        max-width: 233px;
-        margin-bottom: 16px;
-        margin-top: 23px;
+    .main>section>.block>div {
+        display: inline-block;
+        height: 100%;
+        width: 461px;
+        position: absolute;
+        top: 0px;
     }
-    #B .button{
-        width: 266px;
-    }
-}
 
-@media screen and (max-width:300px){
-    .w{
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 4px;
-        padding-right: 4px;
+    .main>section>.block>div>p {
+        position: absolute;
+       /* font-size: 30px;*/
+        padding-top: 20px;
+        padding-left: 20px;
+        margin: 0px;
     }
-    .padding{
-        padding-left: 2px;
-        padding-right: 2px;
+
+    .main>section>.block>div>a {
+       /* font-size: 30px;*/
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding-right: 20px;
+        padding-bottom: 20px;
     }
-    .list li{
-        margin-bottom: 12px;
-        margin-left: 8px;
-        margin-right: 5px;
+
+    .main>section>.block>img {
+        width: 197px;
+        height: 179px;
+        display: inline-block;
+        object-fit: cover;
     }
-    .button{
-        width: 200px;
+
+    .main>section>.block>div>img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: .14;
     }
-}
+
+    .main>span {
+        display: block;
+        text-align: right;
+        margin-top: 25px;
+        margin-bottom: 88px;
+        font-family: '方正兰亭纤黑_GBK';
+      /*  font-size: 20px;*/
+        color: #414141;
+    }
