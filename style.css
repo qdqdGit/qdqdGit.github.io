@@ -8,6 +8,13 @@
         color: #000;
         text-decoration: unset;
     }
+    a[href="home.html"]{
+        transform: translateY(113px);
+        transition: all .38s;
+    }
+    a[href="home.html"]:hover{
+        transform: translateY(21px); 
+    }
     /*布局*/
 
     body {
