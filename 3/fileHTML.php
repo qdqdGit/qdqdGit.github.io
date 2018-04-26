@@ -1,6 +1,6 @@
 <?php
-$hostdir=dirname(__FILE__)."/images/5/5-4";
-$filePaths = "/images/5/5-4/";
+$hostdir=dirname(__FILE__)."/images/5/5-6";
+$filePaths = "/images/5/5-6/";
 /*读取指定目录下的文件*/
 $filesnames = scandir($hostdir);
 unset($filesnames[0]);
@@ -102,7 +102,7 @@ foreach($filesnames as $key => $val ){
     }
 
     /*创建文件 */
-    $fileNameHtml= $dirName."5-4-".$key.".html";
+    $fileNameHtml= $dirName."5-6".$key.".html";
     $file = fopen($fileNameHtml, "w");
     fwrite($file, $htmlStr);
     echo $fileNameHtml.'文件创建成功'."\n";
