@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;
         zoom: 50%;
+        transition: transform .1s;
     }
     a {
         color: #000;
