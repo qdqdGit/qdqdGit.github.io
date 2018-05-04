@@ -36,7 +36,7 @@ function load() {
                 this.callbackFun();
                 break;
             case "touchmove":
-                event.preventDefault();
+                //event.preventDefault(); 屏蔽默认事件
 
                 clientX_end = event.changedTouches[0].clientX;
                 //判断移动的方向
