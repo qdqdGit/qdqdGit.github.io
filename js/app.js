@@ -1,4 +1,4 @@
-/*
+/* 微信网页自带 触屏事件
 function load() {
 
     document.addEventListener('touchstart', touch, false);
