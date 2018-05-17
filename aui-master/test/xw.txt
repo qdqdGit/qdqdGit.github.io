@@ -1,27 +1,27 @@
 ﻿{
    "links": [
         {
-            "name": "新闻标题1",
+            "name": "标题1",
             "url": "http://www.google.com"
         },
         {
-            "name": "新闻标题2",
+            "name": "标题2",
             "url": "http://www.baidu.com"
         },
         {
-            "name": "新闻标题3",
+            "name": "标题3",
             "url": "http://www.SoSo.com"
         },
         {
-            "name": "新闻标题4",
+            "name": "标题4",
             "url": "http://www.SoSo.com"
         },
      	{
-            "name": "新闻标题5",
+            "name": "标题5",
             "url": "http://www.SoSo.com"
         },
      	{
-            "name": "新闻标题6",
+            "name": "标题6",
             "url": "http://www.SoSo.com"
         }
     ]
