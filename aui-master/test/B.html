@@ -44,13 +44,13 @@
         </div>
         <span class="tad-tb B"></span>
     </div>
-    <div class="main" style="margin-bottom: 100px;margin-top: -20px;">
+    <div class="main" id='main' style="margin-bottom: 100px;margin-top: -20px;height: 1094px;overflow: auto;">
 
         <div class="block" style="height: 267px;margin: 0 auto;margin-top: 20px;margin-bottom: 60px;padding-top: 21px">
             <img src="tc12.png" alt="">
         </div>
         <div class="aui-content aui-margin-b-15">
-            <ul style="border-top-width: 0px;" class="aui-list aui-media-list">
+            <ul style="border-top-width: 0px;" id="list" class="aui-list aui-media-list">
                 <li class="aui-list-item">
                     <div class="aui-list-item-inner">
                         <div class="aui-list-item-title" style="font-size: 18px;letter-spacing: 2px;">第一批来中国旅游的美国人 摄影镜头记 录1980年代的鞍山市
@@ -135,6 +135,7 @@
                         </div>
                     </div>
                 </li>
+
             </ul>
         </div>
     </div>
@@ -163,6 +164,8 @@
 </body>
 <script type="text/javascript" src="../script/api.js"></script>
 <script type="text/javascript" src="../script/aui-tab.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
 <script>
     var tab = new auiTab({
         element: document.getElementById("tab"),
@@ -182,5 +185,49 @@
         setTimeout("window.location.href = 'index.html'",300);
     });
 </script>
+    <script type="text/javascript">  
+        $(document).ready(function () {
+            $("#main").unbind("scroll").bind("scroll", function (e) {
+                var sum = this.scrollHeight;
+                if (sum <= $(this).scrollTop() + $(this).height()) {
+                    console.log('ok');
+                    $.ajax(
+                        {
+                            url:"/test/xw.txt",
+                            async:false,
+                            dataType:'json',
+                            success:function(data){
+                                for(var i=0; (i+3)<=(data.links.length);i+=3){
+                                    //console.log(data.links[i].name);
+                    
+                                    $('#list').append('<li class="aui-list-item"><div class="aui-list-item-inner"><div class="aui-list-item-title" style="font-size: 18px;">'
+                                        +data.links[i].name+
+                                        '</div><div class="aui-row aui-row-padded"><div class="aui-col-xs-16"><img src="j2.png" /></div></div></div></li>'
+                                    );
+
+                                    $('#list').append(' <li class="aui-list-item"><div class="aui-list-item-inner"><div class="aui-list-item-title" style="font-size: 18px;">'
+                                        +data.links[i+1].name+
+                                        '</div><div class="aui-row aui-row-padded"><div class="aui-col-xs-4"><img src="j.png" /></div><div class="aui-col-xs-4"><img src="j.png" /></div><div class="aui-col-xs-4"><img src="j.png" /></div></div></div></li>'
+                                    );
+
+
+                                    $('#list').append('<li class="aui-list-item"><div class="aui-media-list-item-inner"><div class="aui-list-item-inner"><div style="font-size: 18px;width: 410px;" class="aui-list-item-title">'
+                                            +'<h1 style="font-size: 3.2rem;">'+data.links[i+2].name+'</h1>'+
+                                            '</div></div><div style="width: 224px;height: 151px;padding-right: 0;margin-bottom: 20px;" class="aui-list-item-media"><img src="j.png"></div></div></li>'
+                                    );
+                                    
+                                }
+                            }
+                        }
+                    );
+                  
+                    
+                    //$(".main").append($(".child").clone());
+                }
+                //console.log('ok');
+
+            });
+        });  
+    </script>
 
 </html>
