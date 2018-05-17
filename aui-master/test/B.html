@@ -32,10 +32,10 @@
 <body>
     <div class="main">
         <div class="aui-tab" id="tab">
-            <div class="aui-tab-item">
-                <a href="index.html">关注</a>
+            <div class="aui-tab-item A">
+                关注
             </div>
-            <div class="aui-tab-item aui-active A">热点</div>
+            <div class="aui-tab-item aui-active B">热点</div>
             <div class="aui-tab-item">便民</div>
             <div class="aui-tab-item">生活</div>
             <div class="aui-tab-item">电商</div>
@@ -43,7 +43,6 @@
         </div>
         <span class="tad-tb B"></span>
     </div>
-
     <div class="main" style="margin-bottom: 100px;margin-top: -20px;">
 
         <div class="block" style="height: 267px;margin: 0 auto;margin-top: 20px;margin-bottom: 60px;padding-top: 21px">
@@ -53,7 +52,7 @@
             <ul style="border-top-width: 0px;" class="aui-list aui-media-list">
                 <li class="aui-list-item">
                     <div class="aui-list-item-inner">
-                        <div class="aui-list-item-title" style="font-size: 37px;letter-spacing: 2px;">第一批来中国旅游的美国人 摄影镜头记 录1980年代的鞍山市
+                        <div class="aui-list-item-title" style="font-size: 30px;letter-spacing: 2px;">第一批来中国旅游的美国人 摄影镜头记 录1980年代的鞍山市
                         </div>
                         <div class="aui-row aui-row-padded">
                             <div class="aui-col-xs-16">
@@ -66,7 +65,7 @@
                 </li>
                 <li class="aui-list-item">
                     <div class="aui-list-item-inner">
-                        <div class="aui-list-item-title" style="font-size: 37px;">本周末教师资格证面试</div>
+                        <div class="aui-list-item-title" style="font-size: 30px;">本周末教师资格证面试</div>
                         <div class="aui-row aui-row-padded">
                             <div class="aui-col-xs-4">
                                 <img src="j.png" />
@@ -88,7 +87,7 @@
                 <li class="aui-list-item">
                     <div class="aui-media-list-item-inner">
                         <div class="aui-list-item-inner">
-                            <div style="font-size: 37px;width: 410px;" class="aui-list-item-title">
+                            <div style="font-size: 30px;width: 410px;" class="aui-list-item-title">
                                 清废行动 | 丽水及时落实整改问题清单</div>
                         </div>
                         <div style="width: 224px;
@@ -109,7 +108,7 @@
 
                 <li class="aui-list-item">
                     <div class="aui-list-item-inner">
-                        <div class="aui-list-item-title" style="font-size: 37px;">本周末教师资格证面试</div>
+                        <div class="aui-list-item-title" style="font-size: 30px;">本周末教师资格证面试</div>
                         <div class="aui-row aui-row-padded">
                             <div class="aui-col-xs-4">
                                 <img src="j.png" />
@@ -126,7 +125,7 @@
 
                 <li class="aui-list-item">
                     <div class="aui-list-item-inner">
-                        <div class="aui-list-item-title" style="font-size: 37px;">第一批来中国旅游的美国人 摄影镜头记 录1980年代的鞍山市
+                        <div class="aui-list-item-title" style="font-size: 30px;">第一批来中国旅游的美国人 摄影镜头记 录1980年代的鞍山市
                         </div>
                         <div class="aui-row aui-row-padded">
                             <div class="aui-col-xs-16">
@@ -166,7 +165,7 @@
 <script>
     var tab = new auiTab({
         element: document.getElementById("tab"),
-        index: 1,
+        index: 2,
         repeatClick: false
     }, function (ret) {
         //45起始位置,126块宽
@@ -177,6 +176,9 @@
         var initX = elWidth / 2 - currWidth / 2;
         document.querySelector('.tad-tb').style.transition = 'all .2s';
         document.querySelector('.tad-tb').style.transform = 'translateX(' + (((((ret.index) - 1) * elWidth) + initX) - 2) + "px)";
+    });
+    document.querySelector('.A').addEventListener('click',function(){
+        setTimeout("window.location.href = 'index.html'",300);
     });
 </script>
 

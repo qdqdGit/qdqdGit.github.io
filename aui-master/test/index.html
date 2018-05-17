@@ -10,11 +10,14 @@
     <link rel="stylesheet" type="text/css" href="../css/aui.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+
     <div class="main">
         <div class="aui-tab" id="tab">
             <div class="aui-tab-item aui-active A">关注</div>
-            <div class="aui-tab-item"><a href="B.html">热点</a></div>
+            <div class="aui-tab-item B">热点</div>
             <div class="aui-tab-item">便民</div>
             <div class="aui-tab-item">生活</div>
             <div class="aui-tab-item">电商</div>
@@ -197,16 +200,16 @@
                 <p class="cont-t">标题</p>
             </div>
             <div class="cont" style=" ">
-                    <div class="img">
-                    </div>
-                    <p class="cont-t">标题</p>
+                <div class="img">
                 </div>
-    
-                <div class="cont">
-                    <div class="img">
-                    </div>
-                    <p class="cont-t">标题</p>
+                <p class="cont-t">标题</p>
+            </div>
+
+            <div class="cont">
+                <div class="img">
                 </div>
+                <p class="cont-t">标题</p>
+            </div>
         </div>
     </div>
     <footer class="aui-bar aui-bar-tab main" id="footer">
@@ -250,6 +253,10 @@
         document.querySelector('.tad-tb').style.transform = 'translateX(' + (((((ret.index) - 1) * elWidth) + initX) - 2) + "px)";
     });
 
+    document.querySelector('.B').addEventListener('click',function(){
+        setTimeout("window.location.href = 'B.html'",300);
+    });
+  
     /*
     window.onload = function () {
         var elWidth = (document.querySelector('#tab').offsetWidth / 6);
