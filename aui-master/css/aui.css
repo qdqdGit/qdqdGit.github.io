@@ -934,7 +934,7 @@ input[type="search"]::-webkit-search-cancel-button {
             align-items: flex-start;
 }
 .aui-list .aui-list-item-media img {
-	width: 100%;
+	/*width: 100%;*/
     display: block;
 }
 .aui-list .aui-list-item-media-list {

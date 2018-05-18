@@ -10,6 +10,25 @@
     <link rel="stylesheet" type="text/css" href="../css/aui.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    .img {
+        overflow: hidden;
+    }
+
+    .img>a>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cont-t {
+        width: 343px;
+        height: 33px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+</style>
 
 <body>
 
@@ -26,7 +45,7 @@
         <span class="tad-tb A"></span>
     </div>
 
-    <div class="main" style="margin-bottom: 100px;">
+    <div class="main" style="margin-bottom: 160px;">
         <div class="aui-searchbar" id="search">
             <div class="aui-searchbar-input aui-border-radius" tapmode onclick="doSearch()">
                 <form action="javascript:search();">
@@ -36,90 +55,132 @@
             </div>
         </div>
 
+        <!--轮播-->
         <div class="block" style="height: 267px;background: #686868;border-radius:8px;margin: 0 auto;margin-top: 20px;margin-bottom: 30px">
-
         </div>
         <div class="block">
-            <image style="display: inline-block;" src='rd2.png'></image>
+            <image style="display: inline-block;" alt='今日热点' src='rd2.png'></image>
         </div>
         <div class="block">
-            <div class="cont" style="">
+            <div class="cont">
                 <div class="img">
-
+                    <a href="http://domestic.firefox.sina.com/18/0516/02/0WAP5OJMRF8T2QDN.html">
+                        <img src="xDPo-hapkuvm5129965.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="http://domestic.firefox.sina.com/18/0516/02/0WAP5OJMRF8T2QDN.html">
+                    <p class="cont-t">网约车危害乘客事件频发 交通部：乘客安全是底线</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
-
+                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NjQyMDcwMg==&mid=2650434020&idx=1&sn=a2cfe718c33aa9036751843b5a305162&scene=0&key=e7c15c1a305089a107a40eb0ac874fdb511e6f96e10709d804ff0787910234f4eadf40e15b2fb9e702e0ca8b8bcdc2ce1caceb76bde1aef05b10b10429c4ec993f8fe41c156a61ed593edad9142311d0&ascene=1&uin=MjEyOTk2NTUwNQ%3D%3D&devicetype=Windows+10&version=6206021b&lang=zh_CN&pass_ticket=1tAcYbr7Shxn9IbFG2O7T8iLDM5AGmBYy1qCh2%2BfrOXbyx8aV93iwZRIGqPbMnfy&winzoom=1">
+                        <img src="640.webp">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NjQyMDcwMg==&mid=2650434020&idx=1&sn=a2cfe718c33aa9036751843b5a305162&scene=0&key=e7c15c1a305089a107a40eb0ac874fdb511e6f96e10709d804ff0787910234f4eadf40e15b2fb9e702e0ca8b8bcdc2ce1caceb76bde1aef05b10b10429c4ec993f8fe41c156a61ed593edad9142311d0&ascene=1&uin=MjEyOTk2NTUwNQ%3D%3D&devicetype=Windows+10&version=6206021b&lang=zh_CN&pass_ticket=1tAcYbr7Shxn9IbFG2O7T8iLDM5AGmBYy1qCh2%2BfrOXbyx8aV93iwZRIGqPbMnfy&winzoom=1">
+                    <p class="cont-t">紧急！今天9：30—11:00发生的一幕，朋友圈都在传！警察严查！丽水人再不注意就晚了！</p>
+                </a>
             </div>
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
-
+                    <a href="https://mp.weixin.qq.com/s?timestamp=1526454372&src=3&ver=1&signature=sgVxsaC-W2xUC4ZtuPA1j2o-Ab1npCkQs1mZiEGcJ2OG7X9idNl1Cpp-9fdj78hSBhaaIu5XlsidT58oYEDZrruuLapsceQAJNZ-y*T7XD-Z38MIaIQYuZtLMJmm1YjcABUOC0Tcu9xRdBpJcYhaeVF3E*ivG5ZrWO38n76IS1g=">
+                        <img src="20180518104710.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s?timestamp=1526454372&src=3&ver=1&signature=sgVxsaC-W2xUC4ZtuPA1j2o-Ab1npCkQs1mZiEGcJ2OG7X9idNl1Cpp-9fdj78hSBhaaIu5XlsidT58oYEDZrruuLapsceQAJNZ-y*T7XD-Z38MIaIQYuZtLMJmm1YjcABUOC0Tcu9xRdBpJcYhaeVF3E*ivG5ZrWO38n76IS1g=">
+                    <p class="cont-t">丽水人，避暑去！这些景区门票全免！错过再等一年</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
-
+                    <a href="http://news.163.com/18/0515/07/DHR35JSB0001875P.html">
+                        <img src="569676cdf9bc773b1d1df12d8e949bfc.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="http://news.163.com/18/0515/07/DHR35JSB0001875P.html">
+                    <p class="cont-t">川航20分钟奇迹备降 副驾驶:短袖上衣长裤都被撕碎</p>
+                </a>
             </div>
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
-
+                    <a href="https://www.sohu.com/a/231791597_115565?_f=index_chan08news_13">
+                        <img src="d3337b9fefaa416f92505c24c78f83b8.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://www.sohu.com/a/231791597_115565?_f=index_chan08news_13">
+                    <p class="cont-t">滴滴顺风车整改：暂停接22点至6点出发的订单</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
-
+                    <a href="http://zj.ifeng.com/a/20180516/6580982_0.shtml">
+                        <img src="1526448140065_5afbc00c159bb80d666d5585.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="http://zj.ifeng.com/a/20180516/6580982_0.shtml">
+                    <p class="cont-t">下载一部电影只需1秒！今天“杭州5G之城”宣布揭幕</p>
+                </a>
             </div>
             <img style="margin-top: 14px;" src="gg.png" alt="">
         </div>
 
         <div style="margin-top: 40px" class="block">
-            <image style="display: inline-block;" src='ds.png'></image>
+            <image style="display: inline-block;" alt='电商' src='ds.png'></image>
         </div>
         <div class="block">
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
-
+                    <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526459894&ver=879&signature=C6KY35JUeKXzE8unZsxAeW-f*2MLOD*mxTWzEmFkfPgObhRS-j*DWrFi78YYiWuBIPlM1GgfDU1HpPbVd*pru9gGPiF5ycYNHNO2uDbuQzjZJYoe0tCJhM4iAud-W-Ca&new=1">
+                        <img src="20180518100146.jpg" />
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526459894&ver=879&signature=C6KY35JUeKXzE8unZsxAeW-f*2MLOD*mxTWzEmFkfPgObhRS-j*DWrFi78YYiWuBIPlM1GgfDU1HpPbVd*pru9gGPiF5ycYNHNO2uDbuQzjZJYoe0tCJhM4iAud-W-Ca&new=1">
+                    <p class="cont-t">政策|农村电商政策 推进农村电商发展</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
-
+                    <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526460314&ver=879&signature=n5n6KOvnEhgalBi8nnZEZOxA1Ln9IFO8PFqnnmvHZdJhZOS8VnTTicyNiRS1ewzmDsNiThUSWEsIGIkWvcXS-i1PpViuPTlMGYC1itgi8dZDiEkJKnVhMhzMk0ZO33X-&new=1">
+                        <img src="20180518101231.jpg" />
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526460314&ver=879&signature=n5n6KOvnEhgalBi8nnZEZOxA1Ln9IFO8PFqnnmvHZdJhZOS8VnTTicyNiRS1ewzmDsNiThUSWEsIGIkWvcXS-i1PpViuPTlMGYC1itgi8dZDiEkJKnVhMhzMk0ZO33X-&new=1">
+                    <p class="cont-t">【电商周刊】一周新闻热点EW-32</p>
+                </a>
             </div>
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
-
+                    <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526460314&ver=879&signature=hQm9NuqTM5YXnrBFiEFSOl4uBpArD9bxRg9s9nRnAovolSC7ebD8ARHoefJTDBawldHq62iX7-UOMEtdd2qONAtyUrJzdTCq49Udj*XJ7O0ATA*a53il0owD3ZC0GzPa&new=1">
+                        <img src="20180518101438.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s?src=11&timestamp=1526460314&ver=879&signature=hQm9NuqTM5YXnrBFiEFSOl4uBpArD9bxRg9s9nRnAovolSC7ebD8ARHoefJTDBawldHq62iX7-UOMEtdd2qONAtyUrJzdTCq49Udj*XJ7O0ATA*a53il0owD3ZC0GzPa&new=1">
+                    <p class="cont-t">热点回顾 | 跨境电商一周要闻汇总</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
-
+                    <a href='https://mp.weixin.qq.com/s/H02QrwI30UTBqnrP1Vlqbg'>
+                        <img src="20180518102041.jpg" />
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href='https://mp.weixin.qq.com/s/H02QrwI30UTBqnrP1Vlqbg'>
+                    <p class="cont-t">【热点话题】电商交易额与贫困发生率负相关 成产业扶贫中坚力量</p>
+                </a>
             </div>
 
-            <img style="margin-top: 14px;" src="gg2.png" alt="">
+            <img style="margin-top: 14px;" src="20180518102417.jpg" alt="广告">
         </div>
         <div style="margin-top: 40px" class="block">
-            <image style="display: inline-block;" src='bm.png'></image>
+            <a href="http://lis.zjzwfw.gov.cn/">
+                <img style="display: inline-block;" src='bm.png'>
+            </a>
         </div>
         <div class="block">
             <div class="cont bm">
@@ -185,30 +246,52 @@
             <img style="margin-top: 23px;" src="gg3.png" alt="">
         </div>
         <div style="margin-top: 40px" class="block">
-            <image style="display: inline-block;" src='ms.png'></image>
+            <image style="display: inline-block;" alt='美食' src='ms.png'></image>
         </div>
         <div class="block">
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
+                    <a href="https://mp.weixin.qq.com/s/GPxXhEm4-J5C4HfSSQWXJg">
+                        <img src="20180518102736.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://mp.weixin.qq.com/s/GPxXhEm4-J5C4HfSSQWXJg">
+                    <p class="cont-t">丽水这家泡面博物馆，每一碗面都是一场浪漫的异国旅行。</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
+                    <a href="http://k.sina.com.cn/article_2077491865_7bd40299001002xzp.html?from=travel">
+                        <img src="20180518103009.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="http://k.sina.com.cn/article_2077491865_7bd40299001002xzp.html?from=travel">
+                    <p class="cont-t">舌尖上的丽水 有机夜宴丽水山耕</p>
+                </a>
+
+
             </div>
-            <div class="cont" style=" ">
+            <div class="cont">
                 <div class="img">
+                    <a href="http://www.sohu.com/a/194492205_115677">
+                        <img src="3211882f0d4f4477a8484ac8984366a2.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="http://www.sohu.com/a/194492205_115677">
+                    <p class="cont-t">“舌尖上的丽水”让你美食养生</p>
+                </a>
             </div>
 
             <div class="cont">
                 <div class="img">
+                    <a href="https://www.sohu.com/a/203304598_748709">
+                        <img src="9ef9d0d31a9a479f9ab3a1ccbe3cd804.jpg">
+                    </a>
                 </div>
-                <p class="cont-t">标题</p>
+                <a href="https://www.sohu.com/a/203304598_748709">
+                    <p class="cont-t">一秒勾魂！丽水这家“隐匿”在小巷里的美味，燃爆了美食圈！（内有福利）</p>
+                </a>
             </div>
         </div>
     </div>
@@ -253,10 +336,10 @@
         document.querySelector('.tad-tb').style.transform = 'translateX(' + (((((ret.index) - 1) * elWidth) + initX) - 2) + "px)";
     });
 
-    document.querySelector('.B').addEventListener('click',function(){
-        setTimeout("window.location.href = 'B.html'",300);
+    document.querySelector('.B').addEventListener('click', function () {
+        setTimeout("window.location.href = 'B.html'", 300);
     });
-  
+
     /*
     window.onload = function () {
         var elWidth = (document.querySelector('#tab').offsetWidth / 6);
