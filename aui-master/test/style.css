@@ -171,7 +171,7 @@ span.tad-tb.B{
     width: 343px;
     height: 197px;
     border-radius: 8px;
-    background: #312e43
+    /*background: #312e43*/
 }
 
 .block>.cont.bm {
@@ -192,7 +192,8 @@ span.tad-tb.B{
     height: 122px;
     margin-bottom: 4px;
     border-radius: 25px;
-    background: #458bc7;
+    
+   /* background: #458bc7;*/
 }
 
 .cont-t {

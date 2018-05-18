@@ -8,6 +8,7 @@
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
     <title>首页</title>
     <link rel="stylesheet" type="text/css" href="../css/aui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
@@ -28,6 +29,80 @@
         white-space: nowrap;
         overflow: hidden;
     }
+
+    .iocs {
+        background-image: url(imageSprite.png) !important;
+        background-repeat: no-repeat;
+        background-size: 433px !important;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+    }
+
+    .iocA {
+        background-position: -350px 25px !important;
+    }
+
+    .iocB {
+        background-position: -259px -338px !important;
+    }
+
+    .iocC {
+        background-position: -164px 26px !important;
+    }
+
+    .iocD {
+        background-position: -164px -248px !important;
+    }
+
+    .iocE {
+        background-position: -259px -69px !important;
+    }
+
+    .iocF {
+        background-position: -168px -337px !important;
+    }
+
+    .iocG {
+        background-position: -79px -246px !important;
+    }
+
+    .iocH {
+        background-position: -261px -246px !important;
+    }
+
+    .iocI {
+        background-position: -165px -156px !important;
+    }
+
+    .iocJ {
+        background-position: -75px -63px !important;
+    }
+
+    .iocM {
+        background-position: -80px -338px !important;
+    }
+
+    .iocN {
+        background-position: 19px -62px !important;
+    }
+
+    .iocN2 {
+        background-position: 16px -244px !important;
+    }
+
+    .iocN3 {
+        background-position: -350px -244px !important;
+    }
+
+    .iocN4 {
+        background-position: -262px -156px !important;
+    }
+
+    .bm>p {
+        height: 28px;
+        overflow: hidden;
+    }
 </style>
 
 <body>
@@ -37,9 +112,13 @@
         <div class="aui-tab" id="tab">
             <div class="aui-tab-item aui-active A">关注</div>
             <div class="aui-tab-item B">热点</div>
-            <div class="aui-tab-item">便民</div>
-            <div class="aui-tab-item">生活</div>
-            <div class="aui-tab-item">电商</div>
+            <div class="aui-tab-item">
+                <a href="https://app.zjzwfw.gov.cn/wechat/wechat/phone/showMoreService.do?zjolTitleName=%E4%BE%BF%E6%B0%91%E6%9C%8D%E5%8A%A1">便民</a>
+            </div>
+            <div class="aui-tab-item">莲都精选</div>
+            <div class="aui-tab-item">
+                <a href="http://wx.ld96345.gov.cn/weixin/index.aspx">96345</a>
+            </div>
             <div class="aui-tab-item">美食</div>
         </div>
         <span class="tad-tb A"></span>
@@ -56,10 +135,25 @@
         </div>
 
         <!--轮播-->
-        <div class="block" style="height: 267px;background: #686868;border-radius:8px;margin: 0 auto;margin-top: 20px;margin-bottom: 30px">
+        <div class="block" style="height: 267px;border-radius:8px;margin: 0 auto;margin-top: 20px;margin-bottom: 30px">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="20180518153857.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="20180518153905.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="20180518153913.png"/>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="block">
-            <image style="display: inline-block;" alt='今日热点' src='rd2.png'></image>
+            <a href="B.html">
+                <img style="display: inline-block;" alt='今日热点' src='rd2.png' />
+            </a>
         </div>
         <div class="block">
             <div class="cont">
@@ -129,7 +223,9 @@
         </div>
 
         <div style="margin-top: 40px" class="block">
-            <image style="display: inline-block;" alt='电商' src='ds.png'></image>
+            <a href="http://www.lvhego.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=20&wxref=mp.weixin.qq.com#wechat_redirect">
+                <img style="display: inline-block;" alt='电商' src='ds.png' />
+            </a>
         </div>
         <div class="block">
             <div class="cont">
@@ -178,71 +274,185 @@
             <img style="margin-top: 14px;" src="20180518102417.jpg" alt="广告">
         </div>
         <div style="margin-top: 40px" class="block">
-            <a href="http://lis.zjzwfw.gov.cn/">
+            <a href="https://app.zjzwfw.gov.cn/wechat/wechat/phone/showMoreService.do?zjolTitleName=%E4%BE%BF%E6%B0%91%E6%9C%8D%E5%8A%A1">
                 <img style="display: inline-block;" src='bm.png'>
             </a>
         </div>
+
         <div class="block">
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjghyy.yyhj.zjzwfw.gov.cn/#/home">
+                            <div class="iocA iocs"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <p>治疗挂号</p>
+
+
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="https://app.zjzwfw.gov.cn/wechat/resources/webchat/molist/download/index.html">
+                            <div class="iocB iocs"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <p>公积金查询</p>
+
+
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjjsyjfcx.yyhj.zjzwfw.gov.cn/wap/drvQuery.do">
+                            <div class="iocC iocs"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <p>驾驶员积分</p>
+
+            </div>
+
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjxsrcm.yyhj.zjzwfw.gov.cn">
+                            <div class="iocD iocs"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <p>新生儿重名</p>
+
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjzwfw.gov.cn/col/col64944/index.html">
+                            <div class="iocE iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>水电气缴费</p>
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjjhdj.yyhj.zjzwfw.gov.cn">
+                            <div class="iocF iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>结婚登记预约</p>
+            </div>
+
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjtqyb.yyhj.zjzwfw.gov.cn">
+                            <div class="iocG iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>天气预报</p>
+            </div>
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="https://app.zjzwfw.gov.cn/wechat/resources/webchat/molist/download/index.html">
+                            <div class="iocH iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>一键挪车</p>
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="https://app.zjzwfw.gov.cn/wechat/resources/webchat/molist/download/index.html">
+                            <div class="iocI iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>社保查询</p>
+            </div>
+
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjjdcwfcx.yyhj.zjzwfw.gov.cn/wap/vehQuery.do">
+                            <div class="iocJ iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>机动车违法</p>
+            </div>
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="https://app.zjzwfw.gov.cn/wechat/resources/webchat/molist/download/index.html">
+                            <div class="iocM iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>公共支付</p>
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://hzzhjt.yyhj.zjzwfw.gov.cn/flight.jsp">
+                            <div class="iocN iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>国内航班</p>
+            </div>
+
+            <div class="cont bm">
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjcrjbz.yyhj.zjzwfw.gov.cn/wap/crjQuery.do">
+                            <div class="iocN2 iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>出入境办证</p>
             </div>
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://zjgssslk.yyhj.zjzwfw.gov.cn">
+                            <div class="iocN3 iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>高速实时路况</p>
             </div>
+
+
             <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
+                <div class="img bm">
+                    <div>
+                        <a href="http://typhoon.yyhj.zjzwfw.gov.cn">
+                            <div class="iocN4 iocs"></div>
+                        </a>
+                    </div>
+                </div>
+                <p>实时台风信息</p>
             </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
-            <div class="cont bm">
-                <div class="img bm"></div>
-                <p>便民</p>
-            </div>
+
             <img style="margin-top: 23px;" src="gg3.png" alt="">
         </div>
         <div style="margin-top: 40px" class="block">
@@ -301,13 +511,16 @@
             <div class="aui-bar-tab-label">首页</div>
         </div>
         <div class="aui-bar-tab-item" tapmode>
-            <i class="aui-iconfont aui-icon-star"></i>
-            <div class="aui-bar-tab-label">便民</div>
+            <a href='https://app.zjzwfw.gov.cn/wechat/wechat/phone/showMoreService.do?zjolTitleName=%E4%BE%BF%E6%B0%91%E6%9C%8D%E5%8A%A1'>
+                <i class="aui-iconfont aui-icon-star"></i>
+                <div class="aui-bar-tab-label">便民</div>
+            </a>
         </div>
         <div class="aui-bar-tab-item" tapmode>
-
-            <i class="aui-iconfont aui-icon-cart"></i>
-            <div class="aui-bar-tab-label">商友圈</div>
+            <a href="http://www.lvhego.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=20&wxref=mp.weixin.qq.com#wechat_redirect">
+                <i class="aui-iconfont aui-icon-cart"></i>
+                <div class="aui-bar-tab-label">商友圈</div>
+            </a>
         </div>
         <div class="aui-bar-tab-item" tapmode>
 
@@ -318,6 +531,7 @@
 
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
 <script type="text/javascript" src="../script/api.js"></script>
 <script type="text/javascript" src="../script/aui-tab.js"></script>
 <script>
@@ -347,6 +561,8 @@
         var initX = (elWidth / 2 - currWidth / 2) - 2;
         document.querySelector('.tad-tb').style.transform = 'translateX(' + initX + "px)";
     }*/
+    var swiper = new Swiper('.swiper-container');
+
 </script>
 
 </html>
