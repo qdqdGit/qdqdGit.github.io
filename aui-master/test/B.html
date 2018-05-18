@@ -64,14 +64,12 @@
                 关注
             </div>
             <div class="aui-tab-item aui-active B">热点</div>
-            <div class="aui-tab-item"><a href="https://app.zjzwfw.gov.cn/wechat/wechat/phone/showMoreService.do?zjolTitleName=%E4%BE%BF%E6%B0%91%E6%9C%8D%E5%8A%A1">便民</a></div>
-            <div style="margin-left: 10px;margin-right: 10px;" class="aui-tab-item">
-                <a href="http://www.lvhego.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=20">
+            <div class="aui-tab-item C">便民</div>
+            <div style="margin-left: 10px;margin-right: 10px;" class="aui-tab-item D">
                     莲都精选
-                </a>
             </div>
-            <div style="margin-left: 10px;margin-right: 10px;" class="aui-tab-item">
-                <a href="http://wx.ld96345.gov.cn/weixin/index.aspx">96345</a>
+            <div style="margin-left: 10px;margin-right: 10px;" class="aui-tab-item E">
+               96345
             </div>
             <div class="aui-tab-item">美食</div>
         </div>
@@ -211,9 +209,17 @@
         document.querySelector('.tad-tb').style.transition = 'all .2s';
         document.querySelector('.tad-tb').style.transform = 'translateX(' + (((((ret.index) - 1) * elWidth) + initX) - 8) + "px)";
     });
+    
     document.querySelector('.A').addEventListener('click',function(){
         setTimeout("window.location.href = 'index.html'",300);
     });
+    document.querySelector('.C').addEventListener('click',function(){
+        setTimeout("window.location.href = 'https://app.zjzwfw.gov.cn/wechat/wechat/phone/showMoreService.do?zjolTitleName=%E4%BE%BF%E6%B0%91%E6%9C%8D%E5%8A%A1'",300);
+    });
+    document.querySelector('.E').addEventListener('click',function(){
+        setTimeout("window.location.href = 'http://wx.ld96345.gov.cn/weixin/index.asp'",300);
+    });
+
 </script>
     <script type="text/javascript">  
         var intI = 0;
