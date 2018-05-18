@@ -22,10 +22,10 @@ span.tad-tb {
     position: absolute;
 }
 span.tad-tb.A{
-    transform: translateX(45.5px);
+    transform: translateX(41.5px);
 }
 span.tad-tb.B{
-    transform: translateX(170.5px);
+    transform: translateX(162.5px);
 }
 
 .aui-tab-item {
