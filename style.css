@@ -1,4 +1,7 @@
     /*覆盖默认样式*/
+    .aui-tab-item{
+        font-size: 0.6rem !important;
+    }
     body{
         margin: 0;
         padding: 0;
