@@ -1,11 +1,11 @@
 ﻿{
    "links": [
         {
-            "name" : "川航20分钟奇迹备降 副驾驶:短袖上衣长裤都被撕碎",
-            "url"  : "http://news.163.com/18/0515/07/DHR35JSB0001875P.html",
-	        "img"  : "569676cdf9bc773b1d1df12d8e949bfc.jpg",
-	        "date" : "5月15日",
-	        "time" : "07:11"
+            "name" : "5G 手机马上就来了，那现在还有必要换 4G 新手机吗？",
+            "url"  : "https://www.toutiao.com/a6563133093014667783/",
+	        "img"  : "http://p1.pstatp.com/large/pgc-image/1528098398238614c718b08",
+	        "date" : "6月4日",
+	        "time" : "18:11"
         },
         {
             "name" : "滴滴顺风车整改：暂停接22点至6点出发的订单",
