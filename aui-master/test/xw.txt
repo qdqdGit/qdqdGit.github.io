@@ -9,7 +9,7 @@
         },
         {
             "name" : "输液一次收169元，比医院贵7倍！“共享护士”是门好生意吗？",
-            "url"  : "https://www.toutiao.com/a6562749366174482947/,
+            "url"  : "https://www.toutiao.com/a6562749366174482947/",
 	        "imgA"  : "http://i0.pstatp.com/large/865a000b4da8c5ab6da9",
             "imgB"  : "http://i0.pstatp.com/large/865a000b4da95dffd2ba",
             "imgC"  : "http://i0.pstatp.com/large/865a000b4da60347a714",
@@ -44,6 +44,6 @@
             "url"  : "http://www.ebrun.com/20180604/280459.shtml?eb=hp_home_lcol_tt6",
 	        "img"  : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528119106382&di=fa070c222fa10eb441d8d75121aaaac9&imgtype=0&src=http%3A%2F%2Fn1.itc.cn%2Fimg8%2Fwb%2Frecom%2F2016%2F03%2F06%2F145724643601960538.PNG",
 	        "date" : "6月4日"
-        }
+        }a
     ]
 }
