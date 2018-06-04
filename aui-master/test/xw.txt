@@ -44,6 +44,6 @@
             "url"  : "http://www.ebrun.com/20180604/280459.shtml?eb=hp_home_lcol_tt6",
 	        "img"  : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528119106382&di=fa070c222fa10eb441d8d75121aaaac9&imgtype=0&src=http%3A%2F%2Fn1.itc.cn%2Fimg8%2Fwb%2Frecom%2F2016%2F03%2F06%2F145724643601960538.PNG",
 	        "date" : "6月4日"
-        }a
+        }
     ]
 }
