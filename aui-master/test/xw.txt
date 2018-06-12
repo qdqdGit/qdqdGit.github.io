@@ -42,7 +42,7 @@
         {
             "name" : "福布斯最有价值品牌:苹果八连冠 华为上榜",
             "url"  : "http://www.ebrun.com/20180525/279085.shtml?eb=hp_home_lcol_yj6",
-	        "img"  : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528817105628&di=a8fdd98d612bb5d30c970bd8e0329e64&imgtype=0&src=http%3A%2F%2Fimage.techweb.com.cn%2Fupload%2Froll%2F2016%2F06%2F02%2F201606029674_7034.jpg",
+	        "img"  : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528817839692&di=f6d037339cefc4084755dfdb0b8806b6&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F12%2F1005%2F506e57c7eec89.jpg",
 	        "date" : "6月12日"
         }
     ]
