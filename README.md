@@ -210,7 +210,7 @@ git clone https://github.com/qdqdGit/qdqdGit.github.io.git
 
 ![5b29e54e39825](https://i.loli.net/2018/06/20/5b29e54e39825.jpg) 
 
-这类页面比重最多，但较为简单，所以准备了一个程序进行半自动操作`hello.exe`
+这类页面比重最多，但较为简单，所以准备了一个程序进行半自动操作[hello.exe](https://pan.baidu.com/s/1vF3cU-OtM4vKP_DrHtUrxQ)
 
 注意: 效果图只能识别`.jpg`和 `.png`格式, 图片文件名会是生成文件的文件名
 
