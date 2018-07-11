@@ -43,7 +43,7 @@
             "name" : "王传君：我要做“木村”",
             "url"  : "https://www.toutiao.com/a6576075067870937603/",
 	        "img"  : "http://p3.pstatp.com/large/pgc-image/1531110902193747f649e56",
-	        "date" : "6月12日"
+	        "date" : "7月11日"
         }
     ]
 }
