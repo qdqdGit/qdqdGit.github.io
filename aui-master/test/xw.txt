@@ -30,19 +30,19 @@
 	        "time" : "19:01"
         },
         {
-            "name" : "直击618 | 京东美妆与二十品牌开快闪店",
-            "url"  : "http://www.ebrun.com/tc/20180618.shtml?eb=hp_home_lcol_xtt",
+            "name" : "35℃高温怎么熬？莲都最全清凉地图，打开盛夏清凉的N种方法！",
+            "url"  : "https://mp.weixin.qq.com/s/EeiuaXYf6I3SiQAngEtEMQ",
 	        "imgA" : 
-"http://www.ebrun.com/tc/20180618/images/lunbo00.jpg",
-            "imgB"  : "http://www.ebrun.com/tc/20180618/images/lunbo33.jpg",
-            "imgC"  : "http://www.ebrun.com/tc/20180618/images/lunbo11.jpg",
-	        "date" : "6月12日",
+"http://img.mp.itc.cn/upload/20170716/a7a2a370122f4b848a495cd1486f418d_th.jpg",
+            "imgB"  : "http://img.mp.itc.cn/upload/20170716/5777a0fda0f841de84ee77e62dd6e2eb_th.jpg",
+            "imgC"  : "http://img.mp.itc.cn/upload/20170716/a699982597644cc7a2fcfdd95c319811_th.jpg",
+	        "date" : "7月11日",
 	        "time" : "19:31"
         },
         {
-            "name" : "福布斯最有价值品牌:苹果八连冠 华为上榜",
-            "url"  : "http://www.ebrun.com/20180525/279085.shtml?eb=hp_home_lcol_yj6",
-	        "img"  : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528817839692&di=f6d037339cefc4084755dfdb0b8806b6&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F12%2F1005%2F506e57c7eec89.jpg",
+            "name" : "王传君：我要做“木村”",
+            "url"  : "https://www.toutiao.com/a6576075067870937603/",
+	        "img"  : "http://p3.pstatp.com/large/pgc-image/1531110902193747f649e56",
 	        "date" : "6月12日"
         }
     ]
