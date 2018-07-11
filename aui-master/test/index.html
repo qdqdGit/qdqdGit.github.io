@@ -65,8 +65,11 @@
     }
 
     .iocG {
+        background-position: -402px -200px !important;
+       /*
         background-position: -526px -261px !important;
         background-size: 670px !important;
+        */
     }
 
     .iocH {
@@ -419,7 +422,7 @@
         repeatClick: false
     }, function (ret) {
         //45起始位置,126块宽
-        var elWidth = (document.querySelector('#tab').offsetWidth / 6);
+        var elWidth = 142;//(document.querySelector('#tab').offsetWidth / 6);
         var childCount = document.querySelector('#tab').childElementCount;
         var currWidth = document.querySelector('.tad-tb').offsetWidth;
 
